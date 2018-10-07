@@ -32,3 +32,12 @@ def kesha_maker(array)
   end
   return new
 end
+
+def find_a(array)
+new = []
+array.each do |x|
+  if x=(/^[A-Za-z]/)
+    new << x
+  end
+  return new
+end
