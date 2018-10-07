@@ -59,6 +59,6 @@ new = []
     x = x + "s"
     new << x
   end
-  new[1].pop
   return new
+  new[1].pop
 end
