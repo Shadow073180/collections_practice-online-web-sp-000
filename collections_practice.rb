@@ -35,9 +35,10 @@ end
 
 def find_a(array)
 new = []
-array.each do |x|
-  if x=(/^[A-Za-z]/)
-    new << x
+  array.each do |x|
+    if x=(/^[A-Za-z]/)
+      new << x
+    end
   end
   return new
 end
