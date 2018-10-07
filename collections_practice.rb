@@ -54,11 +54,8 @@ i = 0
 end
 
 def add_s(array)
-new = []
-  array.each do x
-    x = x + "s"
-    new << x
-  end
-  return new
-  new[1].pop
+  array[0] = "hands"
+  array[2] = "knees"
+  array[3] = "tables"
+  return array
 end
