@@ -46,8 +46,9 @@ new = []
 end
 
 def sum_array(array)
+i = 0
   array.each do |x|
-    i = i + x
+    i += x
   end
   return i
 end
