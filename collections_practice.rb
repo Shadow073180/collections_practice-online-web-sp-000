@@ -36,9 +36,8 @@ end
 def find_a(array)
 new = []
   array.each do |x|
-    if x==(/^[A-Za-z]/)
+    if x[0]==a||A
       new << x
     end
   end
-  return new
 end
