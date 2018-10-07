@@ -36,7 +36,9 @@ end
 def find_a(array)
 new = []
   array.each do |x|
-    if x[0] == "a"|"A"
+    if x[0] == "a"
+      new << x
+    elsif x[0] == "A"
       new << x
     end
   end
