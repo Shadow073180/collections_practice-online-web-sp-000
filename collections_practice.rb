@@ -40,4 +40,5 @@ new = []
       new << x
     end
   end
+  return new
 end
