@@ -13,3 +13,4 @@ def sort_array_asc(array)
     end
     return new
   end
+end
