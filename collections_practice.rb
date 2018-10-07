@@ -52,3 +52,13 @@ i = 0
   end
   return i
 end
+
+def add_s(array)
+new = []
+  array.each do x
+    x = x + "s"
+    new << x
+  end
+  new[1].pop
+  return new
+end
